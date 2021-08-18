@@ -27,7 +27,7 @@ export const SinglePostPage = ({ match }) => {
         <h2>{post.title}</h2>
         <p className="post-content">{post.content}</p>
         <p>
-          <PostAuthor userId={post.userId} />
+          <PostAuthor userId={post.user} />
         </p>
         <p>
           <TimeAgo timestamp={post.date} />
